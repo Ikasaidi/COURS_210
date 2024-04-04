@@ -16,5 +16,6 @@ public class Compagnie {
             }
         }
         System.out.println("Cout Annuel : " + cout);
+
     }
 }
