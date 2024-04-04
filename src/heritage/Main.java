@@ -15,7 +15,14 @@ public class Main {
         //}
         //System.out.println("Le total des aires est de : " + area);
 
-        System.out.println(new Employe("Maxime", "Fournier", "12345", "Enseignant"));
+        //System.out.println(new Employe("Maxime", "Fournier", "12345", "Enseignant"));
+
+        Compagnie bell = new Compagnie();
+        bell.ajouterEmploye(new Emp(3500));
+        bell.ajouterEmploye(new Emp(1200));
+        bell.CoutAnnuel();
+        bell.CoutAnnuel();
+
     }
 
 
